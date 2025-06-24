@@ -11,7 +11,7 @@ def generatePrimeList(n):
             if p > square:
                 primes.append(N)
                 break
-        N = N + 2
+        N += 2
 
     return primes
 
